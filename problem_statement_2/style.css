@@ -86,6 +86,8 @@ section{
     height: auto;
     width: 100%;
     padding: 50px;
+    opacity: 0;
+    transition: all ease-in 1s;
 }
 
 section h1{
@@ -152,6 +154,12 @@ h3
 #ban{
     border-radius: 50px;
     scale: 0.8;
+}
+
+.show
+{
+    opacity: 1;
+    transition: all ease-in 0.4;
 }
 
 @media only  screen and (max-width:800px){
