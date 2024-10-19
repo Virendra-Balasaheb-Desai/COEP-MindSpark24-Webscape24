@@ -88,8 +88,8 @@ section{
 
 section h1{
 
-    font-size: 70px;
-    font-weight: 800;
+    font-size: 100px;
+    font-weight: 900;
     color: black;
 }
 article{
@@ -144,5 +144,35 @@ h3
     .mob{
         display: block;
     }
+
+    section h1{
+        font-size: 70px;
+    }
     
+}
+
+@media only  screen and (max-width:500px){
+
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+   
+    section h1{
+        font-size: 35px;
+    }
+    .para{
+        padding: 4px 10px;
+    }
+    article img{
+        width: 300px;
+        height: 200px;
+        border-radius: 30px;
+    }
+    .sec2{
+        padding: 10px;
+    }
+
 }
